@@ -315,7 +315,7 @@ def do_setup():
     """Perform the Airflow package setup."""
     write_version()
     setup(
-        name='apache-airflow',
+        name='kastro-apache-airflow',
         description='Programmatically author, schedule and monitor data pipelines',
         long_description=long_description,
         long_description_content_type='text/markdown',
@@ -365,7 +365,7 @@ def do_setup():
             'setproctitle>=1.1.8, <2',
             'sqlalchemy~=1.3',
             'tabulate>=0.7.5, <0.9',
-            'tenacity==4.12.0',
+            'tenacity>=4.12.0, <=5.0.4',
             'termcolor==1.1.0',
             'text-unidecode==1.2',
             'typing;python_version<"3.5"',
