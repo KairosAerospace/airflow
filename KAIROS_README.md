@@ -1,4 +1,6 @@
-Steps for pulling in latest from astronomer airflow:
+# Instructions for how to do updates:
+
+## Steps for pulling in latest from astronomer airflow:
 
 1. `git remote add upstream git@github.com:astronomer/airflow.git`
 1. `git fetch upstream --tags`
