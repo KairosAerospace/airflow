@@ -8,3 +8,5 @@
 1. Change `setup.py`:
   - `name='apache-airflow'` -> `name='kastro-apache-airflow`
   - `tenacity` also needs to allow for 5.0.4: `tenacity>=4.12.0, <=5.0.4`
+
+1. After doing so, will need to update rube requirements to use new `kastro-apache-airflow==<version>` and see what needs to be fixed in terms of requirements.
