@@ -315,7 +315,7 @@ def do_setup():
     """Perform the Airflow package setup."""
     write_version()
     setup(
-        name='kastro-apache-airflow',
+        name='kastro_apache_airflow',
         description='Programmatically author, schedule and monitor data pipelines',
         long_description=long_description,
         long_description_content_type='text/markdown',
